@@ -8,7 +8,9 @@
 3.	Выполнить параметризованные запросы INSERT и SELECT.
 4.	Корректно работать с context, пулом соединений и обработкой ошибок.
 ## Структура проекта
-<img width="279" height="213" alt="изображение" src="https://github.com/user-attachments/assets/7f17c0c0-d6f5-4eb9-80f0-f9af08416776" />
+
+<img width="279" height="213" alt="изображение" src="https://github.com/user-attachments/assets/7f17c0c0-d6f5-4eb9-80f0-f9af08416776" /> 
+
 ## Установка и настройка
 1. **На сервере Ubuntu:**
    - Установить PostgreSQL (`sudo apt install postgresql`).
