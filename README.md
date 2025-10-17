@@ -30,4 +30,24 @@
 3. **Запуск:**
    ```powershell
    go run .
-   
+
+## Результаты работы
+Создание базы данных (в данном случае она уже быда создана до этого)
+
+<img width="506" height="88" alt="изображение" src="https://github.com/user-attachments/assets/33258b11-3431-44fc-9d2f-8ca7769cd1f1" /> 
+
+Проверка её наличия
+
+<img width="1391" height="67" alt="изображение" src="https://github.com/user-attachments/assets/9581faec-e0c6-4b87-9925-9e1543c5d80e" /> 
+
+Успешный вывод go run 
+
+<img width="800" height="925" alt="изображение" src="https://github.com/user-attachments/assets/5f44d424-cb8f-4e2d-aa29-c074234af2f7" /> 
+
+Вывод таблицы tasks
+
+<img width="781" height="601" alt="изображение" src="https://github.com/user-attachments/assets/2a5cf260-b2a5-4457-ba46-04bdeffb958e" />
+
+
+
+
