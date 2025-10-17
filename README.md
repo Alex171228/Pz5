@@ -1,1 +1,34 @@
-# Pz5
+# Практическое занятие №5  
+## Шишков Алексей Дмитриевич ЭФМО-02-21
+## Тема
+Подключение к PostgreSQL через database/sql. Выполнение простых запросов (INSERT, SELECT)
+## Цели
+1.	Установить и настроить PostgreSQL локально.
+2.	Подключиться к БД из Go с помощью database/sql и драйвера PostgreSQL.
+3.	Выполнить параметризованные запросы INSERT и SELECT.
+4.	Корректно работать с context, пулом соединений и обработкой ошибок.
+## Структура проекта
+<img width="279" height="213" alt="изображение" src="https://github.com/user-attachments/assets/7f17c0c0-d6f5-4eb9-80f0-f9af08416776" />
+## Установка и настройка
+1. **На сервере Ubuntu:**
+   - Установить PostgreSQL (`sudo apt install postgresql`).
+   - Создать БД `todo` и пользователь `myuser`.
+   - Разрешить подключение с внешнего IP (`listen_addresses='*'`, `pg_hba.conf`).
+   - Открыть порт `5432` в UFW.
+   - Создать таблица `tasks`:
+
+2. **На локальной машине:**
+   - Установить Go 1.21.
+   - Клонировать проект и настроить `.env`:
+     ```
+     DATABASE_URL=postgres://myuser:mypassword@<SERVER_IP>:5432/todo?sslmode=disable&connect_timeout=5
+     ```
+   - Установить зависимости:
+     ```powershell
+     go mod tidy
+     ```
+
+3. **Запуск:**
+   ```powershell
+   go run .
+   
