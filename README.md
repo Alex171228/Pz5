@@ -21,10 +21,7 @@
 
 2. **На локальной машине:**
    - Установить Go 1.21.
-   - Клонировать проект и настроить `.env`:
-     ```
-     DATABASE_URL=postgres://myuser:mypassword@<SERVER_IP>:5432/todo?sslmode=disable&connect_timeout=5
-     ```
+   - Клонировать проект и настроить `.env`
    - Установить зависимости:
      ```powershell
      go mod tidy
